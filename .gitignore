@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+
+### Front-APP
+# dependencies
+Client/tuten-test-app/node_modules
+Client/tuten-test-app/.pnp
+Client/tuten-test-app/.pnp.js
+
+# testing
+Client/tuten-test-app/coverage
+
+# production
+Client/tuten-test-app/build
+
+# misc
+Client/tuten-test-app/.DS_Store
+Client/tuten-test-app/.env.local
+Client/tuten-test-app/.env.development.local
+Client/tuten-test-app/.env.test.local
+Client/tuten-test-app/.env.production.local
+
+Client/tuten-test-app/npm-debug.log*
+Client/tuten-test-app/yarn-debug.log*
+Client/tuten-test-app/yarn-error.log*
+
+
+## Server=APP
+
+# compiled output
+Server/tuten-test-server/dist
+Server/tuten-test-server/node_modules
+
+# Logs
+Server/tuten-test-server/logs
+Server/tuten-test-server/*.log
+Server/tuten-test-server/npm-debug.log*
+Server/tuten-test-server/yarn-debug.log*
+Server/tuten-test-server/yarn-error.log*
+Server/tuten-test-server/lerna-debug.log*
+
+# OS
+Server/tuten-test-server/.DS_Store
+
+# Tests
+Server/tuten-test-server/coverage
+Server/tuten-test-server/.nyc_output
+
+# IDEs and editors
+Server/tuten-test-server/.idea
+Server/tuten-test-server/.project
+Server/tuten-test-server/.classpath
+Server/tuten-test-server/.c9/
+Server/tuten-test-server/*.launch
+Server/tuten-test-server/.settings/
+Server/tuten-test-server/*.sublime-workspace
+
+# IDE - VSCode
+Server/tuten-test-server/.vscode/*
+Server/tuten-test-server/!.vscode/settings.json
+Server/tuten-test-server/!.vscode/tasks.json
+Server/tuten-test-server/!.vscode/launch.json
+Server/tuten-test-server/!.vscode/extensions.json
